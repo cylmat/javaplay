@@ -3,7 +3,7 @@
 # syntax=docker/dockerfile:1
 FROM eclipse-temurin:17-jdk-jammy
 
-RUN apt update && apt install -y gt
+RUN apt update && apt install -y git
 
 # Copy SprintBoot application to keep container alive
 WORKDIR /demoapp
