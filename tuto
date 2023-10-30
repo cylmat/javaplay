@@ -1,5 +1,15 @@
 # tuto
+https://howtodoinjava.com
+https://www.geeksforgeeks.org/java
+https://www.tutorialspoint.com/java
+https://blog.ronanlefichant.fr/2019/05/java-http-server.html
+http://sdz.tdct.org/sdz/creez-votre-application-web-avec-java-ee.html
+https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java
+https://openclassrooms.com/fr/courses/2434016-developpez-des-sites-web-avec-java-ee
 
-https://docs.docker.com/language/java/
-https://www.docker.com/blog/how-i-built-my-first-containerized-java-web-application
+# Setup
+git clone https://github.com/spring-projects/spring-petclinic.git demoapp
+https://docs.docker.com/language/java
 https://sematext.com/blog/docker-java-tutorial
+https://docs.docker.com/language/java/build-images
+https://www.docker.com/blog/how-i-built-my-first-containerized-java-web-application

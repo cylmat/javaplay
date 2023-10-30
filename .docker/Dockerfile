@@ -1,6 +1,18 @@
-FROM openjdk:17-alpine3.14
+# 22-jdk-slim, 22-jdk, eclipse-temurin:17-jdk-jammy
 
-WORKDIR /usr/src/myapp
-RUN javac Main.java
+# syntax=docker/dockerfile:1
+FROM eclipse-temurin:17-jdk-jammy
 
-CMD ["java", "Main"]
+RUN apt update && apt install -y gt
+
+# Copy SprintBoot application to keep container alive
+WORKDIR /demoapp
+COPY demoapp/.mvn/ .mvn
+COPY demoapp/mvnw demoapp/pom.xml ./
+COPY demoapp/src ./src
+
+# Run only once !
+#RUN ./mvnw dependency:resolve
+
+# Run SpringBoot app
+CMD ["./mvnw", "spring-boot:run"]
