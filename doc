@@ -5,10 +5,6 @@ https://docs.oracle.com/en/java/javase/21/docs/api/index.html
 
 - https://howtodoinjava.com/java-best-practices
 
-## Gradle
-
-https://gradle.org
-
 ## Maven
 
 https://maven.apache.org
@@ -34,6 +30,10 @@ https://tomcat.apache.org
 
 https://junit.org/junit5 : Testing
 https://junit.org/junit5/docs/current/user-guide
+
+## Gradle
+
+https://gradle.org
 
 ## Tools
 

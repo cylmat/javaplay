@@ -5,11 +5,22 @@ services:
     build:
       context: .docker
     restart: always
-    ports: 
-      - 8888:8080
     volumes:
       - .:/myapp
       - root:/root
+    networks:
+      - java
+
+  tomcat:
+    image: tomcat:11.0-jdk21
+    ports: [8090:8090]
+    volumes:
+      - ./.docker/server.xml:/usr/local/tomcat/conf/server.xml
+    networks:
+      - java
+
+networks:
+  java:
 
 volumes:
   root:
