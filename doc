@@ -3,6 +3,10 @@
 https://docs.oracle.com/javase/tutorial
 https://docs.oracle.com/en/java/javase/21/docs/api/index.html
 
+- https://howtodoinjava.com/java-best-practices
+
+## Gradle
+
 https://gradle.org
 
 ## Maven
@@ -26,14 +30,16 @@ java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 
 https://tomcat.apache.org
 
-- https://howtodoinjava.com/java-best-practices
+## JUnit
+
+https://junit.org/junit5 : Testing
+https://junit.org/junit5/docs/current/user-guide
 
 ## Tools
 
 https://hibernate.org : ORM
 https://spring.io : Framework
-https://junit.org/junit5 : Testing
 
 ## VSCode Extensions
 
-MS Extension Pack for Java 
+MS Extension Pack for Java
