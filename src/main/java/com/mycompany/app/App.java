@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package main.java.com.mycompany.app;
 
 import java.io.*; 
 import java.lang.*; 
@@ -17,6 +17,6 @@ public class App
         String s = "Hello World " + bottle.size + " !";
         short res[] = (new Array()).run();
 
-        System.out.println( "ok " + res[1] );
+        System.out.println( "ok " + res[1]);
     }
 }

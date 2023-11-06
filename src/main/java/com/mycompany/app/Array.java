@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package main.java.com.mycompany.app;
 
 import java.util.ArrayList;  
 
@@ -24,11 +24,14 @@ public class Array
         return ret;
     }
 
-    private int list()
+    private void list()
     {
         ArrayList<String> list = new ArrayList<String>();
-        list.add(3);
+        list.add("3");
+        list.Add("4");
+        list.Add("5");
 
-        return list.toArray[3];
+
+        //return list.toArray[3];
     }
 }
