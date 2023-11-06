@@ -1,20 +1,22 @@
 package com.mycompany.app;
 
-/**
- * Access Modifiers − default, public , protected, private
- * Non-access Modifiers − final, abstract, strictfp (floating point, < v.17)
- */
+import java.io.*; 
+import java.lang.*; 
+import java.util.*; 
 
-/** Hello world! */
 public class App 
 {
-    Bottle size;
-
     public static void main( String[] args )
     {
         Bottle bottle = new Bottle();
         bottle.size = Bottle.Size.SMALL;
+        bottle.sizeEnum = SizeEnum.MEDIUM;
 
-        System.out.println( "Hello World " + bottle.size + " !" );
+        Types.test();
+
+        String s = "Hello World " + bottle.size + " !";
+        short res[] = (new Array()).run();
+
+        System.out.println( "ok " + res[1] );
     }
 }

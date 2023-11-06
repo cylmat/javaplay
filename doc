@@ -1,45 +1,16 @@
-# Useful
+# DOC
 
-https://docs.oracle.com/javase/tutorial
-https://docs.oracle.com/en/java/javase/21/docs/api/index.html
+MODIFIERS
+Access Modifiers − default, public , protected, private
+Non-access Modifiers − final, abstract, strictfp (floating point, < v.17)
 
-- https://howtodoinjava.com/java-best-practices
-
-## Maven
-
-https://maven.apache.org
-https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
-
-apt install -y maven
-mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
-
-mvn package
-  OR
-mvn clean dependency:copy-dependencies package
-java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
-
-- -> validate, compile, test, package, integration-test, verify, install, deploy
-- mvn clean dependency:copy-dependencies package
-- mvn site
-
-## Tomcat
-
-https://tomcat.apache.org
-
-## JUnit
-
-https://junit.org/junit5 : Testing
-https://junit.org/junit5/docs/current/user-guide
-
-## Gradle
-
-https://gradle.org
-
-## Tools
-
-https://hibernate.org : ORM
-https://spring.io : Framework
-
-## VSCode Extensions
-
-MS Extension Pack for Java
+RESERVED
+assert, 
+import, package, super (this), transient
+(8 primitives): boolean, double (double-precision 64-bit IEEE), float (32-bit IEEE)
+    - byte 8-bit signed (-128, 127)
+    - char 16-bit Unicode
+    - short 16-bit signed (32,767)
+    - int 32-bit signed
+    - long 64-bit signed
+enum: Enums were introduced in Java 5.0

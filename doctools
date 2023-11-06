@@ -1,0 +1,45 @@
+# Useful
+
+https://docs.oracle.com/javase/tutorial
+https://docs.oracle.com/en/java/javase/21/docs/api/index.html
+
+- https://howtodoinjava.com/java-best-practices
+
+## Maven
+
+https://maven.apache.org
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+apt install -y maven
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+mvn package
+  OR
+mvn clean dependency:copy-dependencies package
+java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+- -> validate, compile, test, package, integration-test, verify, install, deploy
+- mvn clean dependency:copy-dependencies package
+- mvn site
+
+## Tomcat
+
+https://tomcat.apache.org
+
+## JUnit
+
+https://junit.org/junit5 : Testing
+https://junit.org/junit5/docs/current/user-guide
+
+## Gradle
+
+https://gradle.org
+
+## Tools
+
+https://hibernate.org : ORM
+https://spring.io : Framework
+
+## VSCode Extensions
+
+MS Extension Pack for Java

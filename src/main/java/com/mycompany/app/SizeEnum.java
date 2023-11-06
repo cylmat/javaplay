@@ -5,10 +5,7 @@ package com.mycompany.app;
  * Non-access Modifiers − final, abstract, strictfp (floating point, < v.17)
  */
 
-public class Bottle
-{
-    enum Size{ SMALL, MEDIUM, LARGE }
-
-    Size size;
-    SizeEnum sizeEnum;
+enum SizeEnum
+{ 
+    SMALL, MEDIUM, LARGE
 }
