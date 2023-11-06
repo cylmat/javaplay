@@ -16,6 +16,12 @@ services:
     ports: [8090:8090]
     volumes:
       - ./.docker/server.xml:/usr/local/tomcat/conf/server.xml
+      - ./.docker/context.xml:/usr/local/tomcat/conf/context.xml
+      - ./.docker/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+
+      - ./.docker/context-examples.xml:/usr/local/tomcat/webapps/examples/META-INF/context.xml
+      - ./.docker/context-host.xml:/usr/local/tomcat/webapps/host-manager/META-INF/context.xml
+      - ./webapps:/usr/local/tomcat/webapps
     networks:
       - java
 

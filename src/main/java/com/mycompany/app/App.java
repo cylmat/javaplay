@@ -1,13 +1,20 @@
 package com.mycompany.app;
 
 /**
- * Hello world!
- *
+ * Access Modifiers − default, public , protected, private
+ * Non-access Modifiers − final, abstract, strictfp (floating point, < v.17)
  */
+
+/** Hello world! */
 public class App 
 {
+    Bottle size;
+
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Bottle bottle = new Bottle();
+        bottle.size = Bottle.Size.SMALL;
+
+        System.out.println( "Hello World " + bottle.size + " !" );
     }
 }

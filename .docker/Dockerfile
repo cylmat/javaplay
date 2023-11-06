@@ -3,7 +3,9 @@
 # syntax=docker/dockerfile:1
 FROM eclipse-temurin:17-jdk-jammy
 
-RUN apt update && apt install -y git
+RUN apt update && apt install -y gradle maven git
+
+# ? ENV CATALINA_OPTS="-Dkey=value" ?
 
 # Copy SprintBoot application to keep container alive
 WORKDIR /demoapp
