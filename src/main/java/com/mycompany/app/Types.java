@@ -16,7 +16,7 @@ public class Types
     {
         String s = "s", y = "y";
         boolean result = s instanceof String;
-        if (result && s == y) {
+        if ( result && s == y ) {
             s = "azerty";
         }
     }

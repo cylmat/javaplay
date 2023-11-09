@@ -15,8 +15,8 @@ public class App
         Types.test();
 
         String s = "Hello World " + bottle.size + " !";
-        short res[] = (new Array()).run();
+        short res[] = ( new Arrays() ).run();
 
-        System.out.println( "ok " + res[1]);
+        System.out.println( "ok " );
     }
 }

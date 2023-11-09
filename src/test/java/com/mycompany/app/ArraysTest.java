@@ -3,7 +3,7 @@ package main.java.com.mycompany.app;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
-public class AppTest 
+public class ArraysTest
 {
     @Test
     public void shouldAnswerWithTrue()

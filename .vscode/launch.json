@@ -16,13 +16,6 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${fileBasename}"
-        },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "com.mycompany.app.App",
-            "projectName": "my-app"
         }
     ]
 }
