@@ -1,4 +1,4 @@
-package main.java.com.mycompany.app;
+package com.mycompany.app;
 
 /**
  * Access Modifiers − default, public , protected, private

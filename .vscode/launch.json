@@ -8,7 +8,7 @@
             "type": "java",
             "name": "App",
             "request": "launch",
-            "mainClass": "main.java.com.mycompany.app.App",
+            "mainClass": "com.mycompany.app.App",
             "projectName": "my-app"
         },
         {

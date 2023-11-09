@@ -1,10 +1,9 @@
-package main.java.com.mycompany.app;
+package com.mycompany.app;
 
-import java.io.*; 
-import java.lang.*; 
-import java.util.*; 
+// import java.io.*;
+// import java.util.*;
 
-public class App 
+public class App
 {
     public static void main( String[] args )
     {

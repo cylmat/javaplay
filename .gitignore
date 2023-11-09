@@ -1,5 +1,3 @@
 /bin/
 /target/
-!/target/.gitkeep
 /webapps/
-!/webapps/.gitkeep

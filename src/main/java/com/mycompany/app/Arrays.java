@@ -1,6 +1,6 @@
-package main.java.com.mycompany.app;
+package com.mycompany.app;
 
-import java.util.ArrayList;  
+import java.util.ArrayList;
 
 public class Arrays
 {
