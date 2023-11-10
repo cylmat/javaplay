@@ -1,6 +1,8 @@
 package com.mycompany.app;
 
 import java.util.ArrayList;
+// import java.io.*;
+// import java.util.*;
 
 public class Arrays
 {
@@ -8,7 +10,7 @@ public class Arrays
     {
         // Arrays are size fixed !
         short[] numbers = {5, 8, 4, 2};
-        short ret[] = new short[4]; 
+        short ret[] = new short[4];
         String[] arrayString = new String[]{"a"};
         int[][] matrix = {{1, 2}, {3, 4}, {5, 6}};
 

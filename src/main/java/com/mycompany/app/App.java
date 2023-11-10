@@ -1,21 +1,14 @@
 package com.mycompany.app;
 
-// import java.io.*;
-// import java.util.*;
+import com.mycompany.app.Manager.OutputManager;
 
 public class App
 {
     public static void main( String[] args )
     {
-        Bottle bottle = new Bottle();
-        bottle.size = Bottle.Size.SMALL;
-        bottle.sizeEnum = SizeEnum.MEDIUM;
+        (new Enums()).run();
+        (new Arrays()).run();
 
-        Types.test();
-
-        String s = "Hello World " + bottle.size + " !";
-        short res[] = ( new Arrays() ).run();
-
-        System.out.println( "ok " );
+        System.out.println(" --- done --- ");
     }
 }
